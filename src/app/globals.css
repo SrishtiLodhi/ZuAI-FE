@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text{
+font-family: 'Mont';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 42px;
+color: #1E2026;
+}
+
+.fontColor{
+color: #6947bf;
+}

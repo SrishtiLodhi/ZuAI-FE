@@ -13,6 +13,7 @@ module.exports = {
         cta: '#cec4eb',
         button: '#fcfbfd',
         fontColor: '#6947bf',
+        secondaryBackground: '#CEC4EB',
       }
     },
   },

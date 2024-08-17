@@ -2,60 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
-.text{
-font-family: 'Mont';
-font-style: normal;
-font-weight: 800;
-font-size: 32px;
-line-height: 42px;
-color: #1E2026;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-.fontColor{
-color: #6947bf;
+.text {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 42px;
+  color: #1e2026;
 }
 
-.card{
-box-sizing: border-box;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 20px;
-background: rgba(252, 251, 253, 0.72);
-/* Neutrals/200 */
-border: 1px solid #D6DFE4;
-border-radius: 24px;
+.border-radius {
+  border-radius: 1rem;
 }
 
-.upload-container{
-box-sizing: border-box;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 4rem;
-background: #FCFBFD;
-border: 1px dashed #CEC4EB;
-border-radius: 12px;
+.card {
+  box-sizing: border-box;
+  padding: 20px;
+  background: rgba(252, 251, 253, 0.72);
+  /* Neutrals/200 */
+  border: 1px solid #d6dfe4;
+  border-radius: 24px;
 }
 
-.heading-text{
-font-family: 'Mont';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 21px;
-color: #7A8196;
+.upload-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  background: #fcfbfd;
+  border: 1px dashed #cec4eb;
+  border-radius: 12px;
 }
 
-.para-text{
-font-family: 'Mont';
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 16px;
-/* identical to box height */
-text-align: center;
-color: #7A8196;
+.heading-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #7a8196;
+}
+
+.para-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #7a8196;
+}
+
+.upload-button {
+  box-sizing: border-box;
+  padding: 8px 12px;
+  background: #fcfbfd;
+  border: 1px solid #cec4eb;
+  box-shadow: 0px 2px 12px rgba(105, 71, 191, 0.12);
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 20px;
+  color: #6947bf;
+  width: 25%;
 }

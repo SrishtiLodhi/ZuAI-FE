@@ -16,6 +16,12 @@ body {
 
 .border-radius {
   border-radius: 1rem;
+font-family: 'Mont';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+color: #5B6170;
 }
 
 .card {
@@ -68,4 +74,13 @@ body {
   line-height: 20px;
   color: #6947bf;
   width: 25%;
+}
+
+.course-text{
+font-family: 'Mont';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+color: #7A8196;
 }

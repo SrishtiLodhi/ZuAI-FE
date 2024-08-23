@@ -5,7 +5,7 @@ import { useCourseworkStore } from "../store/useCourseworkStore";
 
 export default function ExploreCoursework() {
   return (
-    <div class="bg-gray-50 min-h-screen flex justify-center items-center">
+    <div class="min-h-screen flex justify-center items-center p-5">
       <div class="bg-white shadow-md rounded-md overflow-hidden w-[500px]">
         <div class="flex items-center bg-gray-100 p-3">
           <svg

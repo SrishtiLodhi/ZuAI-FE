@@ -70,7 +70,7 @@ export default function FileUpload({ onEvaluateClick }) {
             <h3 className="heading-text">Drag and drop a PDF </h3>
             <p className="para-text mb-4">*Limit 25 MB per file.</p>
             <button className="upload-button">
-              {isUploading ? "Uploading..." : "Upload your file"}
+              {isUploading ? "Uploading..." : "Uploaded"}
             </button>
           </div>
           <div className="flex flex-col justify-start">
